@@ -132,10 +132,11 @@ public class Login extends JFrame implements ActionListener {
 				else if((usrname.equals("rubi") && pass.equals("rubi11")) || (usrname.equals("ram") && pass.equals("ram7"))) {
 				
 				JOptionPane.showMessageDialog(fr,"Welcome you are logged in sucessfully");
+				new TTT1();
 				
 				}else {
 			
-					JOptionPane.showMessageDialog(fr,"Sorry!!Ivalid Id or passwprd");
+					JOptionPane.showMessageDialog(fr,"Sorry!! Invalid Id or password");
 			
 				}
 		

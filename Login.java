@@ -144,4 +144,15 @@ public class Login extends JFrame implements ActionListener {
 	}
 }
 	
+	public boolean login_test(String username_t, String password_t) {
+
+        String username="rama";
+        String password="246";
+        boolean result = false;
+        if (username_t == username && password_t == password) {
+           result = true;
+        }
+        return result;
+     }
+	
 }

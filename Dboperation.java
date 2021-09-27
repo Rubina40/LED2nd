@@ -2,6 +2,7 @@ package led_project;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -44,5 +45,10 @@ public class Dboperation {
 public static void main(String[] args) {
 	
 	new Dboperation();
+}
+
+public ResultSet select(String query) {
+	// TODO Auto-generated method stub
+	return null;
 }
 }

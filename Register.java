@@ -150,4 +150,14 @@ public Register() {
 			fr.setVisible(false);
 		}
 	}
+	
+	public boolean registration_test(String pass_t, String cpass_t) {
+        String pass_test="karki123";
+        String cpass_test="karkii123";
+        boolean result = false;
+        if (pass_t == pass_test && cpass_t == cpass_test) {
+           result = true;
+        }
+        return result;
+     }
 }
